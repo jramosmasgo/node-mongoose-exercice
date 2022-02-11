@@ -14,6 +14,7 @@ describe('index tests', function () {
   beforeAll((done) => {
     try {
       if (!process.env.PORT) {
+        console.log(process.env.PORT)
         throw new Error('You do not have a .env file or a PORT variable definend');
 
       } else {
