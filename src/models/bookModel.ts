@@ -19,5 +19,3 @@ export const BookSchema = new Schema({
 });
 
 export const BookModel = mongoose.model<IBook>('book', BookSchema);
-
-
